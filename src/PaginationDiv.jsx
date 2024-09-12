@@ -17,7 +17,6 @@ export default function PaginationDiv({
     >
       <button
         style={{ width: "5rem", margin: 5, height: 40 }}
-        disabled={pageNo === 1}
         onClick={decrementPage}
       >
         Previous

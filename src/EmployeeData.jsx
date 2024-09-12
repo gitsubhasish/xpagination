@@ -57,6 +57,7 @@ export default function EmployeeData() {
         flexDirection: "column",
       }}
     >
+      <h1>Employee Data Table</h1>
       <table style={{ width: "80%" }}>
         <thead style={{ height: 50, backgroundColor: "green", color: "#fff" }}>
           <tr>
